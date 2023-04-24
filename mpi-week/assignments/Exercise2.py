@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 from mpi4py import MPI
 
 comm = MPI.COMM_WORLD
@@ -22,5 +16,7 @@ while True:
 
     print("Process", rank, "got", value)
 
-MPI.Finalize()
+MPI.Finalize()    
+
+
 

@@ -14,8 +14,4 @@ def f1():
     print("toto",RANK,SIZE)
     
 f1()
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
 
